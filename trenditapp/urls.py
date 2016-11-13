@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from app import urls
+from mainapp import urls
 
 urlpatterns = [
-    #url(r'^admin/', admin.site.urls),
-    url(r'^', include('app.urls')),
+    url(r'^admin/', admin.site.urls),
+    url(r'^', include('mainapp.urls')),
+    url(r'^search/', include('googlesearch.urls')),
 ]

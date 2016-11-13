@@ -1,0 +1,26 @@
+{% extends 'app/base.html' %}
+<!DOCTYPE html>
+{% block body_block %}
+<div class="hero-unit">
+
+    <div class="container">
+    <form class="form-signin span4" id="forgot_username" method="post" action="/forgotusername/">
+        <h2 class="form-signin-heading">Please provide your details</h2>
+        {% csrf_token %}
+
+        {% if bad_details %}
+        <p><strong>The email address you entered is not registered with us! Please enter a registered email address</strong></p>
+        {% elif disabled_account %}
+        <p><strong>Your Trend!t account is currently disabled; we can't log you in!</strong></p>
+        {% endif %}
+
+        <input type="text" class="input-block-level" placeholder="Email" name="email" value="" size="50" />
+        <br />
+
+        <button class="btn btn-primary" type="submit">Send Email</button>
+    </form>
+<a href="/">Home</a>
+    </div>
+    <!-- /container -->
+</div>
+{% endblock %}

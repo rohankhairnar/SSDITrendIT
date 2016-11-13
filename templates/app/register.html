@@ -1,7 +1,12 @@
 {% extends 'app/base.html' %}
 {% block body_block %}
+
 <div class="hero-unit">
     <h1>Register with Trend!t</h1>
+        <div class="row">
+  <div class="col-md-4 col-md-offset-2">
+
+  <div class="well">
     <br />
 
     <div class="container">
@@ -14,12 +19,13 @@
               enctype="multipart/form-data">
             {% csrf_token %}
             <h2 class="form-signin-heading">Sign up Here</h2>
+
             <!-- Display each form here -->
 
             {% for field in user_form.visible_fields %}
             {{ field.errors }}
             {{ field.help_text }}<br />
-            {{ field }}<br />
+            {{ field }} <br />
             {% endfor %}
 
             {% for field in profile_form.visible_fields %}
@@ -38,3 +44,5 @@
     </div>
 </div>
 {% endblock %}
+</div></div>
+  </div>

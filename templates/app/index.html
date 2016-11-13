@@ -1,6 +1,7 @@
 {% extends 'app/base.html' %}
 <!DOCTYPE html>
 {% block body_block %}
+{% load googlesearch_inclusion_tags %}
 <div class="hero-unit">
     <h1>Welcome to Trend!t</h1>
     <br />
@@ -12,6 +13,7 @@
                    {% else %}
                     <li><a href="/register/">Register</a></li>
                     <li><a href="/login/">Login</a></li></br>
+                       {% googlesearch_form %}
 
                    {% endif %}
                </ul>

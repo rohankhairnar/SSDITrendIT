@@ -34,12 +34,14 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sites',
+    #'django.contrib.sites',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #'django.contrib.admindocs',
-    'app',
+    'mainapp',
+    'djng',
+    'googlesearch',
 ]
 
 MIDDLEWARE = [
@@ -66,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                #'django.core.context_processors.request',
             ],
         },
     },
@@ -120,8 +123,18 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-
+STATIC_ROOT = '/static/'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "templates/static"), ]
-LOGIN_URL = '/app/login/'
+LOGIN_URL = '/mainapp/login/'
+
+#For sending email settings:
+EMAIL_HOST = 'smtp.googlemail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_PASSWORD = 'trendit123'
+EMAIL_HOST_USER = 'trendittheapp@gmail.com'
+EMAIL_USE_TLS   = True
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
