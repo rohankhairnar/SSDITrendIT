@@ -1,5 +1,6 @@
 from django import template
-
+import tweepy
+from twitter import config
 
 register = template.Library()
 
@@ -15,3 +16,4 @@ def googlesearch_form(context):
 @register.inclusion_tag('googlesearch/inclusion_tags/results.html')
 def googlesearch_results():
     return {}
+

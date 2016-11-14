@@ -7,6 +7,7 @@
 
 {% if user.is_authenticated %}
     <p>Welcome, we are happy to have you as our user! Following are your account details:</p>
+    <p>Name: {{ user.first_name }}</p>
     <p>Username: {{ user.username }}</p>
     <p>Email ID: {{ user.email }}</p>
 

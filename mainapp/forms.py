@@ -3,9 +3,8 @@ from django.contrib.auth.models import User
 from django import forms
 from django.core.validators import validate_email
 
-
 class UserForm(forms.ModelForm):
-    fullname = forms.CharField(help_text="Please enter your Full Name")
+    first_name = forms.CharField(help_text="Please enter your Full Name")
     username = forms.CharField(help_text="Please enter a Username.")
     email = forms.CharField(help_text="Please enter your Email.")
     password = forms.CharField(widget=forms.PasswordInput(), help_text="Please enter a Password.")
@@ -23,7 +22,7 @@ class UserForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ['fullname', 'username', 'email', 'password2', 'password']
+        fields = ['first_name', 'username', 'email', 'password', 'password2']
 
 
 class UserProfileForm(forms.ModelForm):
