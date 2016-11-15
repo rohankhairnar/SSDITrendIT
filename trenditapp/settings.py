@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'mainapp',
     'src',
     'django_nose',
-    'twitter',
+    'twitterapp',
     'googlesearch',
 ]
 

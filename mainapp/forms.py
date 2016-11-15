@@ -4,11 +4,11 @@ from django import forms
 from django.core.validators import validate_email
 
 class UserForm(forms.ModelForm):
-    first_name = forms.CharField(help_text="Please enter your Full Name")
-    username = forms.CharField(help_text="Please enter a Username.")
-    email = forms.CharField(help_text="Please enter your Email.")
-    password = forms.CharField(widget=forms.PasswordInput(), help_text="Please enter a Password.")
-    password2 = forms.CharField(widget=forms.PasswordInput(), help_text="Re-enter your Password.")
+    first_name = forms.CharField(help_text="Full Name")
+    username = forms.CharField(help_text="Username", required=True)
+    email = forms.CharField(help_text="Email")
+    password = forms.CharField(widget=forms.PasswordInput(), help_text="Password")
+    password2 = forms.CharField(widget=forms.PasswordInput(), help_text="Re-enter Password")
 
     def clean_password2(self):
             password = self.cleaned_data.get('password')
@@ -26,8 +26,8 @@ class UserForm(forms.ModelForm):
 
 
 class UserProfileForm(forms.ModelForm):
-    website = forms.URLField(help_text="Please enter your website.", required=False)
-    picture = forms.ImageField(help_text="Select a profile image to upload.", required=False)
+    website = forms.URLField(help_text="Website", required=False)
+    picture = forms.ImageField(help_text="Profile Picture", required=False)
 
     class Meta:
         model = UserProfile

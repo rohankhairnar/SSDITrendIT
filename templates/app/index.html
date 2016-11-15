@@ -2,20 +2,25 @@
 <!DOCTYPE html>
 {% block body_block %}
 {% load googlesearch_inclusion_tags %}
-<div class="hero-unit">
-    <h1>Welcome to Trend!t</h1>
-    <br />
 
+    <h1 align="center">One stop to connect you with #trends!</h1>
+    <br />
+    <div class="hero-unit">
                    {% if user.is_authenticated %}
-                    <li class="navbar-text">Welcome, {{ user.username }}!</li>
-                    <li><a href="/logout/">Logout</a></li>
-                    <a href="/details/">Account Details</a><br/>
-                       {% googlesearch_form %}
+                       <div align="center">{% googlesearch_form %}</div>
+                       <br>
+                       <div class="well"> {% for key in json_list %}
+                       <a>&nbsp;{{ key }}&nbsp; </a>
+                    {% endfor %}</div>
                    {% else %}
-                    <li><a href="/register/">Register</a></li>
-                    <li><a href="/login/">Login</a></li></br>
-                       {% googlesearch_form %}
+
+                      <div align="center">{% googlesearch_form %}</div>
+                       <br>
+                       <div class="well"> {% for key in json_list %}
+                       <a>&nbsp;{{ key }}&nbsp; </a>
+                    {% endfor %}</div>
                    {% endif %}
+
                </ul>
            </div>
            <!--/.nav-collapse -->

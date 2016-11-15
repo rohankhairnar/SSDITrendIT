@@ -11,4 +11,3 @@ class TrendForm(forms.ModelForm):
 
     class Meta:
         model = Group
-        fields = ['id', 'name']

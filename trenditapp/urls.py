@@ -20,5 +20,6 @@ from mainapp import urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('mainapp.urls')),
+    url(r'^', include('twitterapp.urls')),
     url(r'^search/', include('googlesearch.urls')),
 ]
