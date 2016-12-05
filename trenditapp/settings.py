@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -39,10 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #'django.contrib.admindocs',
     'mainapp',
-    'src',
-    'django_nose',
-    'twitter',
+    'twitterapp',
     'googlesearch',
+    'chat',
+    'twitter_feed',
+    'django_simple_forum',
 ]
 
 MIDDLEWARE = [
@@ -133,9 +135,20 @@ LOGIN_URL = '/mainapp/login/'
 #For sending email settings:
 EMAIL_HOST = 'smtp.googlemail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = 'trendit123'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_HOST_USER = 'trendittheapp@gmail.com'
 EMAIL_USE_TLS   = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
+TWITTER_FEED_CONSUMER_PUBLIC_KEY = 'k7TcWQNvLAFw6UHp8b6tjSfys'
+TWITTER_FEED_CONSUMER_SECRET = 'HoJ4C5Qgb0kGpt1NkPp4RAuInseNYOHLXOXrpksAU7jwRdW2ZY'
+TWITTER_FEED_OPEN_AUTH_TOKEN = '105425189-p1Oif8hdJ4RXuN35mbPfH81onaVScOaziCefbRxJ'
+TWITTER_FEED_OPEN_AUTH_SECRET = '8gikBBD7lRt7mbGG9JO5Yfy9kMS4OjesrN0UQIZaOEJOI'
+
+
+from django.conf import settings
+
+DJANGO_SIMPLE_FORUM_TOPICS_PER_PAGE = getattr(settings, 'DJANGO_SIMPLE_FORUM_TOPICS_PER_PAGE', 10)
+DJANGO_SIMPLE_FORUM_REPLIES_PER_PAGE = getattr(settings, 'DJANGO_SIMPLE_FORUM_REPLIES_PER_PAGE', 10)
+DJANGO_SIMPLE_FORUM_FILTER_PROFANE_WORDS = getattr(settings, 'DJANGO_SIMPLE_FORUM_FILTER_PROFANE_WORDS', True)

@@ -1,9 +1,10 @@
 from django.conf.urls import url
 from mainapp import views as views
+from twitterapp import views as twitterviews
 
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    #url(r'^$', twitterviews.index, name='index'),
     url(r'^register/$', views.register, name='register'),
     url(r'^login/$', views.user_login, name='login'),
     url(r'^logout/$', views.user_logout, name='logout'),
@@ -19,5 +20,6 @@ urlpatterns = [
     url(r'^forgotusername/$', views.forgot_username, name='forgotusername'),
     url(r'^email/$', views.email, name='email'),
     url(r'^passwordchange/$', views.password_change, name='passwordchange'),
+    url(r'^app/results.html/$', twitterviews.trend_results, name='results'),
     ]
 

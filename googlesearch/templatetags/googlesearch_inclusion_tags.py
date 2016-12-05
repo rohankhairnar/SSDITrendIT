@@ -1,6 +1,6 @@
 from django import template
 import tweepy
-from twitter import config
+from twitterapp import config
 
 register = template.Library()
 

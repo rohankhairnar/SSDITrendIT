@@ -1,0 +1,20 @@
+{% extends 'app/base.html' %}
+<!DOCTYPE html>
+{% block body_block %}
+<div class="hero-unit">
+    <h1>User account Details</h1>
+
+
+{% if user.is_authenticated %}
+    <p>Welcome, we are happy to have you as our user! Following are your account details:</p>
+    <p>Name: {{ user.first_name }}</p>
+    <p>Username: {{ user.username }}</p>
+    <p>Email ID: {{ user.email }}</p>
+
+
+     <a href="/">Return to the homepage</a><br />
+{% else %}
+    <p>Welcome, new user. Please log in!</p>
+{% endif %}
+</div>
+{% endblock %}

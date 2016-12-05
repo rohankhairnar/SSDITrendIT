@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{show_afs_search}" />
+    <file url="PROJECT" libraries="{html5shiv, jqcloud, jquery, respond, show_afs_search}" />
   </component>
 </project>

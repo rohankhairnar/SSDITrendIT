@@ -1,23 +1,95 @@
 {% extends 'app/base.html' %}
 <!DOCTYPE html>
+{% load static %}
 {% block body_block %}
-{% load googlesearch_inclusion_tags %}
-<div class="hero-unit">
-    <h1>Welcome to Trend!t</h1>
-    <br />
 
-                   {% if user.is_authenticated %}
-                    <li class="navbar-text">Welcome, {{ user.username }}!</li>
-                    <li><a href="/logout/">Logout</a></li>
-                    <a href="/details/">Account Details</a><br/>
-                       {% googlesearch_form %}
-                   {% else %}
-                    <li><a href="/register/">Register</a></li>
-                    <li><a href="/login/">Login</a></li></br>
-                       {% googlesearch_form %}
-                   {% endif %}
-               </ul>
-           </div>
+    <h1 align="center" xmlns="http://www.w3.org/1999/html">One stop to connect you with #trends!</h1>
+    <br />
+    <div class="hero-unit">
+               <div align="center" >
+                       <form id="cref" name="cref" action="app/results.html" method="get">
+                           <span><input type="text" class="search-rounded input-lg" placeholder="jump to your #trend" name="searchterm" id="searchterm" required/>
+                               <span><input type="submit" class="btn btn-primary" name="search" value="Search#"></span>
+                               <a href="http://127.0.0.1:8082/app/results.html/?searchterm={{ surprise_term|urlencode }}" class="btn btn-danger">Surprise Me!</a>
+
+                           </span>
+
+                        </form>
+                       </div>
+                       <br>
+
+{#                       Older well design <div class="well"> {% for key in json_list %}#}
+{#                       <a>&nbsp;{{ key }}&nbsp; </a>#}
+{#                    {% endfor %}#}
+{#                       </div>#}
+
+{#               </ul>#}
+
+
+    <div id="cloud" class="jqcloud" style="position:relative"></div>
+                       <script type="text/javascript">
+
+                       $(document).ready(function(){
+                           var words =[
+                       {% for key in json_list %}
+                           {text: "{{ key }}",weight: -1,link:'http://127.0.0.1:8082/app/results.html/?searchterm={{ key|urlencode }}'},
+                          {text: "{{ key }}",weight: -2 ,link:'http://127.0.0.1:8082/app/results.html/?searchterm={{ key|urlencode }}'},
+                          {text: "{{ key }}",weight: -3 ,link:'http://127.0.0.1:8082/app/results.html/?searchterm={{ key|urlencode }}'},
+                           {text: "{{ key }}",weight: -4 ,link:'http://127.0.0.1:8082/app/results.html/?searchterm={{ key|urlencode }}'},
+                           {text: "{{ key }}",weight: -5 ,link:'http://127.0.0.1:8082/app/results.html/?searchterm={{ key|urlencode }}'},
+                        {% endfor %}];
+                        $("#cloud").jQCloud(words, {
+                                      width: 1160,
+                                      height: 340,
+                            shape: 'elliptic',
+                            classPattern: null,
+                            colors: ["#ff5050","#99cc00","#0066ff","#990099","#33cc33"],
+                            fontSize: {
+                                        from: 0.03,
+                                        to: 0.02
+                                      }
+                                                   });
+                       });
+                       </script>
+</div>
+<br>
+    <br>
            <!--/.nav-collapse -->
+
+
+            <section id="about" class="about-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <h1>About Section</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="services-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Services Section</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Contact Section</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
 {% endblock %}
