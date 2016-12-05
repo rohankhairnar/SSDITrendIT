@@ -2,122 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3515f9dc-262d-4c27-95ad-bf54889d0914" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PKG-INFO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/import_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/management/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/management/commands/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/management/commands/show_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/management/commands/update_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/twitter_feed/templates/twitter_feed/latest_tweets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/templates/chats/chat_room.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/templates/chats/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chatserver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/migrations/0002_auto__add_field_topic_description.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/migrations/0003_auto__add_profanityword.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/migrations/0004_auto__del_profanityword__add_profaneword.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/templates/django_simple_forum/forum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/templates/django_simple_forum/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/templates/django_simple_forum/new-topic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/templates/django_simple_forum/reply.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/templates/django_simple_forum/topic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_simple_forum/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_twitter_feed.egg-info/PKG-INFO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_twitter_feed.egg-info/SOURCES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_twitter_feed.egg-info/dependency_links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_twitter_feed.egg-info/not-zip-safe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_twitter_feed.egg-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/chat_room.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/results.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/scripts/jquery.bootstrap.newsbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/scripts/jquery.bootstrap.newsbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/app/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/django_simple_forum/forum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/django_simple_forum/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/django_simple_forum/new-topic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/django_simple_forum/reply.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/django_simple_forum/topic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/indexold.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/jqcloud.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/css/twitter_sup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/http_ajax.googleapis.com_ajax_libs_jquery_3.1.1_jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/http_raw.githubusercontent.com_mistic100_jQCloud_master_dist_jqcloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/http_rawgit.com_mistic100_jQCloud_master_dist_jqcloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/jqcloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/jqcloud.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/static/js/jquery.bootstrap.newsbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/import_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/management/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/management/commands/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/management/commands/show_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/management/commands/update_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter_feed/templates/twitter_feed/latest_tweets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/Templates/user_details1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitterapp/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/django-angular" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/django-angulara" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pip-delete-this-directory.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/twitter/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/twitter/views.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/__init__.py" afterPath="$PROJECT_DIR$/chat/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/admin.py" afterPath="$PROJECT_DIR$/twitterapp/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/apps.py" afterPath="$PROJECT_DIR$/twitterapp/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/config.py" afterPath="$PROJECT_DIR$/twitterapp/config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/forms.py" afterPath="$PROJECT_DIR$/twitterapp/forms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/migrations/__init__.py" afterPath="$PROJECT_DIR$/chat/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter/tests.py" afterPath="$PROJECT_DIR$/twitterapp/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/trenditapp.iml" afterPath="$PROJECT_DIR$/.idea/trenditapp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/googlesearch/templates/googlesearch/inclusion_tags/form.html" afterPath="$PROJECT_DIR$/googlesearch/templates/googlesearch/inclusion_tags/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/googlesearch/templatetags/googlesearch_inclusion_tags.py" afterPath="$PROJECT_DIR$/googlesearch/templatetags/googlesearch_inclusion_tags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/forms.py" afterPath="$PROJECT_DIR$/mainapp/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/tests.py" afterPath="$PROJECT_DIR$/mainapp/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/urls.py" afterPath="$PROJECT_DIR$/mainapp/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/base.html" afterPath="$PROJECT_DIR$/templates/app/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/contact.html" afterPath="$PROJECT_DIR$/templates/app/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/details.html" afterPath="$PROJECT_DIR$/templates/app/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/index.html" afterPath="$PROJECT_DIR$/templates/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/login.html" afterPath="$PROJECT_DIR$/templates/app/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/register.html" afterPath="$PROJECT_DIR$/templates/app/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/templates/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/templates/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/templates/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trenditapp/settings.py" afterPath="$PROJECT_DIR$/trenditapp/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trenditapp/urls.py" afterPath="$PROJECT_DIR$/trenditapp/urls.py" />
     </list>
     <ignored path="trenditapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,8 +51,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_simple_forum/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -396,7 +282,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
@@ -808,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479098877671</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added trends on homepage and tweets results">
+      <created>1480914303675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480914303675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,14 +749,14 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.359375" sideWeight="0.5323102" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3153409" sideWeight="0.5339257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23990306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32102272" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3153409" sideWeight="0.47092083" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3153409" sideWeight="0.46607432" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -891,7 +784,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sprint2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint2" />
+    <MESSAGE value="Added trends on homepage and tweets results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added trends on homepage and tweets results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -972,6 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="68" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,6 +902,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,6 +961,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,6 +991,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,6 +999,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,6 +1009,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,6 +1019,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,6 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,6 +1035,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,6 +1054,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#644#685#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,6 +1064,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,6 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,6 +1082,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,6 +1130,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-716">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,6 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,6 +1154,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,6 +1162,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,8 +1184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_simple_forum/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="333">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
