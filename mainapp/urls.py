@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^forgotusername/$', views.forgot_username, name='forgotusername'),
     url(r'^email/$', views.email, name='email'),
     url(r'^passwordchange/$', views.password_change, name='passwordchange'),
+    url(r'^app/results.html/$', twitterviews.trend_results, name='results'),
     ]
 

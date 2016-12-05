@@ -1,0 +1,17 @@
+from django.http import HttpResponse
+from django.shortcuts import render, get_object_or_404
+
+from chat.models import ChatRoom
+
+
+def index1(request):
+    chat_rooms = ChatRoom.objects.order_by('name')[:5]
+    context = {
+        'chat_list': chat_rooms,
+    }
+    return render(request, 'app/index1.html', context)
+
+
+def chat_room(request, chat_room_id):
+    chat = get_object_or_404(ChatRoom, pk=chat_room_id)
+    return render(request, 'app/chat_room.html', {'chat': chat})

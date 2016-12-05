@@ -16,10 +16,18 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from mainapp import urls
+from django.views.generic import RedirectView
+admin.autodiscover()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('mainapp.urls')),
     url(r'^', include('twitterapp.urls')),
+<<<<<<< HEAD
+=======
+    url(r'^chats/', include('chat.urls')),
+    url(r'^(/)?$', RedirectView.as_view(url='/chats/')),
+>>>>>>> master
     url(r'^search/', include('googlesearch.urls')),
+    url(r'^forum/', include('django_simple_forum.urls')),
 ]

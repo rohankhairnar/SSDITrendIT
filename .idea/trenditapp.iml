@@ -18,6 +18,10 @@
     <orderEntry type="jdk" jdkName="Python 3.5.2 (/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="show_afs_search" level="application" />
+    <orderEntry type="library" name="html5shiv" level="application" />
+    <orderEntry type="library" name="respond" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="jqcloud" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

@@ -1,0 +1,38 @@
+{% extends "app/base.html" %}
+<!DOCTYPE html>
+{% block body_block %}
+    {% block content %}
+        <h3 align="center" class="bg-danger ">Latest on #<strong>{{ searchterm|cut:"%23"|cut:"%20" }}</strong></h3>
+        <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-list-alt"></span><b>Latest Tweets</b></div>
+        <div class="panel-body"><div class="row"><div class="col-xs-12">
+    <ul class="demo">
+            {% for key in results %}
+            <li class="news-item"><table cellpadding="4"><tr><td> {{ key|urlize }}</td></tr></table></li>
+        {% endfor %}</ul>
+    <script type="text/javascript">
+        $(function () {
+        $(".demo").bootstrapNews({
+        newsPerPage: 6,
+        navigation: true,
+        autoplay: true,
+        direction:'up', // up or down
+        animationSpeed: 'normal',
+        newsTickerInterval: 1500, //1.5 secs
+        pauseOnHover: true,
+        onStop: null,
+        onPause: null,
+        onReset: null,
+        onPrev: null,
+        onNext: null,
+        onToDo: null
+        });
+        });
+        </script>
+    <div class="well"> {{ photos }}</div>
+    </div>
+</div>
+        </div></div>
+    {% endblock %}
+
+{% endblock %}
